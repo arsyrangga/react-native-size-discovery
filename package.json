@@ -18,5 +18,11 @@
     "device"
   ],
   "author": "Rangga",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
 }
