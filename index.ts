@@ -11,7 +11,7 @@ export const setHeight = (data : number) =>{
 }
 // @ts-ignore
 const guidelineBaseWidth = 350;
-export default function scale(size : number) {
+export const scale = (size : number) => {
   // @ts-ignore
   return width / guidelineBaseWidth * size
 };
