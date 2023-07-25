@@ -1,6 +1,6 @@
 {
   "name": "react-native-size-discovery",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "For handling fordable device and all device",
   "main": "index.js",
   "repository": "https://github.com/arsyrangga",
