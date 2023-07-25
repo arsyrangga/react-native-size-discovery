@@ -13,5 +13,6 @@ export const setHeight = (data : number) =>{
 const guidelineBaseWidth = 350;
 export const scale = (size : number) => {
   // @ts-ignore
-  return width / guidelineBaseWidth * size
+  const teh = width < height ? width : height
+  return teh / guidelineBaseWidth * size
 };
