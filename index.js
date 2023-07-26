@@ -28,8 +28,8 @@ const guidelineBaseWidth = 350;
 export const scale = (size) => {
   // @ts-ignore
   const teh = width < height ? width : height
-  if(width > 650){
-  return (teh / 2) / guidelineBaseWidth * size
+  if(width > 650 ){
+  return (teh / 1.75) / guidelineBaseWidth * size
   }
   return teh / guidelineBaseWidth * size
 };
